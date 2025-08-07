@@ -54,6 +54,8 @@ autostart=true
 autorestart=true
 redirect_stderr=true
 stdout_logfile=<log-file>
+startretries=100
+startsecs=0
 ```
 
 Replace the following variables in the configuration above with the correct paths in your system:
